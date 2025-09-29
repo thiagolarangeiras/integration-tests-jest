@@ -4,12 +4,15 @@
 
 ## GitHub Actions
 
-[![Node.js CI](https://github.com/ugioni/integration-tests-jest/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/integration-tests-jest/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/thiagolarangeiras/Owner avatar
+prova02-integration-test-thiagoLarangeira
+/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/thiagolarangeiras/Owner avatar
+prova02-integration-test-thiagoLarangeira
+/actions/workflows/node.js.yml)
 
 ## SonarCloud
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_integration-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_integration-tests-jest)
-
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=thiagolarangeiras_prova02-integration-test-thiagoLarangeira&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=thiagolarangeiras_prova02-integration-test-thiagoLarangeira)
 # Getting Started
 
 ### Pactum docs:
