@@ -2,20 +2,20 @@ import pactum from 'pactum';
 import { StatusCodes } from 'http-status-codes';
 import { SimpleReporter } from '../simple-reporter';
 
-describe('Jogos Gratuitos', () => {
+describe('Loja Falsa', () => {
   const p = pactum;
   const rep = SimpleReporter;
-  const baseUrl = "http://www.freetogame.com";
+  const baseUrl = "https://fakestoreapi.com";
   p.request.setDefaultTimeout(30000);
 
   beforeAll(() => p.reporter.add(rep));
   afterAll(() => p.reporter.end());
 
-  describe("Jogos Gratuitos", () => {
+  describe("Listar Produtos", () => {
     it("Listar todos", async () => {
       await p
         .spec()
-        .get(`${baseUrl}/api/games`)
+        .get(`${baseUrl}/products`)
         .inspect()
         .expectStatus(StatusCodes.OK);
     });
