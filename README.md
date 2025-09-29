@@ -28,7 +28,7 @@ Inside of the project folder run:
 After that you should see a `./output` folder with some `HTML` reports.
 
 ### Docs to Api under tests: 
- - [Fake Store API](https://fakestoreapi.com)
+ - [Fake Store API](https://fakeapi.platzi.com/en)
 
 
 
