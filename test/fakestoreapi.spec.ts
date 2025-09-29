@@ -5,7 +5,7 @@ import { SimpleReporter } from '../simple-reporter';
 describe('Loja Falsa', () => {
   const p = pactum;
   const rep = SimpleReporter;
-  const baseUrl = "https://fakestoreapi.com";
+  const baseUrl = "https://api.escuelajs.co/api/v1";
   p.request.setDefaultTimeout(30000);
 
   beforeAll(() => p.reporter.add(rep));
@@ -16,7 +16,6 @@ describe('Loja Falsa', () => {
       await p
         .spec()
         .get(`${baseUrl}/products`)
-        .withHeaders('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36')
         .inspect()
         .expectStatus(StatusCodes.OK);
     });
